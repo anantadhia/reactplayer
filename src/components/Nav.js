@@ -40,16 +40,26 @@ const H1 = styled.h1`
 `;
 
 const Button = styled.button`
+  font-size: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   background: transparent;
-  border-radius: 12px;
+  border-radius: 10px;
   border: none;
+  color: #4500ff;
   cursor: pointer;
-  border: 2px solid rgb(65, 65, 65);
-  padding: 0.5rem;
+  border: 2px solid #4500ff;
+  padding: 0.6rem;
   transition: all 0.3s ease;
   &:hover {
-    background: rgb(34, 6, 65);
+    background: #4500ff;
     color: white;
+  }
+  @media screen and (max-width: 768px) {
+    position: fixed;
+    margin-top: 90px;
+    right: -9px;
   }
 `;
 
