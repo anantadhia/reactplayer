@@ -215,8 +215,8 @@ function chillHop() {
     },
     {
       name: "ラスト・ステップ (LAST STEP)",
-      album: "Circus Town",
       cover: "/CircusTown.jpg",
+      album: "Circus Town",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/05.%20Last%20Step.mp3",
       color: ["#CB602D", "#c74243"],
