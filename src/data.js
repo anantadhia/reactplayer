@@ -115,11 +115,111 @@ function chillHop() {
     },
     {
       name: "Ten Commandments Of Love",
-      cover: "/CircusTown.jpg",
-      album: "On The Street Corner",
+      cover: "/OTSC2.jpg",
+      album: "On The Street Corner 2",
       audio:
-        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/01.%20Circus%20Town.mp3",
-      color: ["#EF8EA9", "#ab417f"],
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/02.%20Ten%20Commandments%20Of%20Love.mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Windy Lady",
+      cover: "/CircusTown.jpg",
+      album: "Circus Town",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/02.%20Windy%20Lady.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Minnie",
+      cover: "/CircusTown.jpg",
+      album: "Circus Town",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/03.%20Minnie.mp3",
+      color: ["#CD607D", "#c74043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Morning Glory",
+      cover: "/ForY.jpg",
+      album: "For You",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/03.%20Morning%20Glory.mp3",
+      color: ["#CD607D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "So Much In Love",
+      cover: "/OTSC2.jpg",
+      album: "On The Street Corner 2",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/03.%20So%20Much%20In%20Love.mp3",
+      color: ["#CD607D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Tokyo_s A Lonely Town",
+      cover: "/Artisan.jpg",
+      album: "Artisan",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/05%20Tokyo_s%20A%20Lonely%20Town.mp3",
+      color: ["#CD602D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "The Girl In White",
+      cover: "/Boku no Naka no Shounen.jpg",
+      album: "Boku no Naka no Shounen",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/03.%20The%20Girl%20In%20White%20--------------.mp3",
+      color: ["#CD602D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "永遠に (Eien ni)",
+      cover: "/CircusTown.jpg",
+      album: "Circus Town",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/04.%20Eien%20ni.mp3",
+      color: ["#CD602D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Make It Easy On Yourself",
+      cover: "/OTSC2.jpg",
+      album: "On The Street Corner 2",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/04.%20Make%20It%20Easy%20On%20Yourself.mp3",
+      color: ["#CA602D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Loveland, Island",
+      cover: "/ForY.jpg",
+      album: "For You",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/05.%20Loveland%2C%20Island.mp3",
+      color: ["#CB602D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "ラスト・ステップ (LAST STEP)",
+      name: "Circus Town",
+      cover: "/CircusTown.jpg",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/05.%20Last%20Step.mp3",
+      color: ["#CB602D", "#c74243"],
       id: uuidv4(),
       active: false,
     },
