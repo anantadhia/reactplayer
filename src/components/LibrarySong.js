@@ -41,7 +41,7 @@ const LibrarySong = ({
       <Img src={song.cover} alt={song.name}></Img>
       <LibrarySongDescription>
         <H1>{song.name}</H1>
-        <H2>{song.artist}</H2>
+        <H2>{song.album}</H2>
       </LibrarySongDescription>
     </LibrarySongContainer>
   );
