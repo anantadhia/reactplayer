@@ -140,39 +140,61 @@ const LibraryContainer = styled.ul`
   left: 0;
   width: 20rem;
   height: 100%;
-  background-color: white;
-  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  background-image: url(tatsuback.webp);
+
   user-select: none;
   overflow: scroll;
   transform: translateX(${(p) => (p.libraryStatus ? "0%" : "-100%")});
   transition: all 0.5s ease;
   opacity: ${(p) => (p.libraryStatus ? "100" : "0")};
-  scrollbar-width: thin;
-  scrollbar-color: rgba(155, 155, 155, 0.5) tranparent;
-  &::-webkit-scrollbar {
-    width: 5px;
+  overflow-x: hidden;
+  scrollbar-width: auto;
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
   }
-  &::-webkit-scrollbar-track {
-    background: transparent;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #4500ff;
   }
-  &::-webkit-scrollbar-thumb {
-    background-color: rgba(155, 155, 155, 0.5);
-    border-radius: 20px;
-    border: transparent;
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #4500ff;
+
+    background-image: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      color-stop(0.5, rgba(255, 255, 255, 0.2)),
+      color-stop(0.5, transparent),
+      to(transparent)
+    );
   }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ba0000;
+  }
+
   @media screen and (max-width: 768px) {
     width: 100%;
     z-index: 9;
+    padding-right: 50px;
   }
 `;
 
 const SongContainer = styled.li`
   display: flex;
   flex-direction: column;
-  background-color: white;
+
+  border: 2px solid #4500ff;
+  background: rgba(69, 0, 255, 0.06);
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 `;
 
 const H1 = styled.h2`
+  mix-blend-mode: hard-light;
   padding: 2rem;
 `;
 
