@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components";
 import "./App.css";
 import { Reorder } from "framer-motion";
@@ -101,18 +101,31 @@ const App = () => {
 
 //LIBRARY
 const Library = ({
-  songs,
+ 
   currentSong,
   setCurrentSong,
   audioRef,
   isPlaying,
-  setSongs,
+  
   libraryStatus,
 }) => {
+  const [songs, setSongs] = useState(data());
+  useEffect(() => {
+    const storedValue = localStorage.getItem("songs");
+    try {
+      setSongs(JSON.parse(storedValue));
+    } catch (error) {
+      console.error(error);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("songs", JSON.stringify(songs));
+  }, [songs]);
+   
   return (
     <LibraryContainer libraryStatus={libraryStatus}>
       <H1>Library</H1>
-
       <SongContainer>
         <Reorder.Group values={songs} onReorder={setSongs}>
           {songs.map((song) => (
