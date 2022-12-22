@@ -48,7 +48,7 @@ function chillHop() {
       cover: "/Boku no Naka no Shounen.jpg",
       album: "Boku no Naka no Shounen",
       audio:
-        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Neo%20Tokyo%20Rhapshody.mp3",
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/neo%20tokyo.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
