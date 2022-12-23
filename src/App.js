@@ -101,15 +101,16 @@ const App = () => {
 
 //LIBRARY
 const Library = ({
- 
+  songs,
+  setSongs,
   currentSong,
   setCurrentSong,
   audioRef,
   isPlaying,
-  
+
   libraryStatus,
 }) => {
-  const [songs, setSongs] = useState(data());
+  // const [songs, setSongs] = useState(data());
   useEffect(() => {
     const storedValue = localStorage.getItem("songs");
     try {
@@ -122,7 +123,7 @@ const Library = ({
   useEffect(() => {
     localStorage.setItem("songs", JSON.stringify(songs));
   }, [songs]);
-   
+
   return (
     <LibraryContainer libraryStatus={libraryStatus}>
       <H1>Library</H1>
