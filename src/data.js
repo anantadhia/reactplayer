@@ -54,11 +54,11 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Ride  on Time",
+      name: "Ride  on Time (Single Ver.)",
       cover: "/Rideontime.jpg",
       album: "Ride  on Timee",
       audio:
-        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/ride%20on%20time.mp4",
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/10.-RIDE-ON-TIME-_Single_.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
@@ -220,6 +220,15 @@ function chillHop() {
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/05.%20Last%20Step.mp3",
       color: ["#CB602D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    }, {
+      name: "Ride  on Time (Album Ver.)",
+      cover: "/tatsuback.webp",
+      album: "Ride  on Timee",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/4.-RIDE-ON-TIME-_Album-Ver_.mp3",
+      color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
     },
