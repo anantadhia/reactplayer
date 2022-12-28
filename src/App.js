@@ -217,6 +217,7 @@ const LibraryContainer = styled.ul`
 `;
 
 const SongContainer = styled.li`
+cursor:move;
   display: flex;
   flex-direction: column;
 
