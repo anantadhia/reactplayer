@@ -1,6 +1,8 @@
-This app is made by Wilson and modified by an2ta for Tats library songs and sortable library
+This app is made by Wilson and modified by an2ta for Tats library songs, sortable library, and other features . 
 
-This project was made by following Dev Ed's react course, with some of my personal tweaks. In the course, he used scss modules to style, while I used styled components. I choose to use styled components because of the advantage of being able to style based on props, which is personally, is much more convenient than add class and scss modules.
+The music library stored to your localstorage, so it doesnt change even if you terminate the session (aka closing browser). However, I put expire time for 4 days (from the last session) in order to anticipate update in the library. Hence, u also need to delete the localstorage file if you did not see any changes if this repo is updated, kindly reminder that this repo will be grown ( I guess), so, the later mentioned about deleting the localstorage in ur machine, is required to have the current version.
+
+
 
 In the project directory, you can run:
 
