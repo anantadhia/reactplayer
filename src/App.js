@@ -111,7 +111,7 @@ const Library = ({
   libraryStatus,
 }) => {
   // const [songs, setSongs] = useState(data());
-  const expirationTime = 1209600; // expiration time in seconds (14 days * 24 hours/day * 60 minutes/hour * 60 seconds/minute)
+  const expirationTime = 345600; // expiration time in seconds (4 days * 24 hours/day * 60 minutes/hour * 60 seconds/minute)
 
   useEffect(() => {
     const storedValue = localStorage.getItem("songs");
