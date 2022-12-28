@@ -8,12 +8,6 @@ const Credit = () => {
       </Link>
       <br />
 
-      <Link
-        href="https://github.com/WilsonLe/react-music-player"
-        target="_blank"
-      >
-        Origin repository
-      </Link>
       <p>
         {" "}
         This is a nonprofit project for personal and hobby. All rights is
