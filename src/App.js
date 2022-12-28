@@ -219,7 +219,7 @@ const LibraryContainer = styled.ul`
 const SongContainer = styled.li`
   display: flex;
   flex-direction: column;
-
+cursor:move;
   border: 2px solid #4500ff;
   background: rgba(69, 0, 255, 0.06);
 
