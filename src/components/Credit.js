@@ -4,7 +4,7 @@ const Credit = () => {
   return (
     <CreditContainer>
       <Link href="https://github.com/anantadhia/reactplayer" target="_blank">
-        Tatsu repository by an2ta
+        Tatsu repository
       </Link>
       <br />
 
