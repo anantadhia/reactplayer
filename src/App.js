@@ -111,6 +111,8 @@ const Library = ({
   libraryStatus,
 }) => {
   // const [songs, setSongs] = useState(data());
+  const expirationTime = 1209600; // expiration time in seconds (14 days * 24 hours/day * 60 minutes/hour * 60 seconds/minute)
+
   useEffect(() => {
     const storedValue = localStorage.getItem("songs");
     try {
@@ -118,11 +120,28 @@ const Library = ({
     } catch (error) {
       console.error(error);
     }
+
+    // set the expiration time for the item based on the current time
+    const expirationDate = new Date().getTime() + expirationTime * 1000; // current time + expiration time in milliseconds
+    localStorage.setItem("songsExpiration", expirationDate);
   }, []);
 
   useEffect(() => {
     localStorage.setItem("songs", JSON.stringify(songs));
+    // update the expiration time for the item based on the current time
+    const expirationDate = new Date().getTime() + expirationTime * 1000; // current time + expiration time in milliseconds
+    localStorage.setItem("songsExpiration", expirationDate);
   }, [songs]);
+
+  // check if the item has expired every minute
+  setInterval(() => {
+    const currentTime = new Date().getTime();
+    const storedExpiration = localStorage.getItem("songsExpiration");
+    if (storedExpiration && currentTime > storedExpiration) {
+      localStorage.removeItem("songs");
+      localStorage.removeItem("songsExpiration");
+    }
+  }, 60000); // check every minute
 
   return (
     <LibraryContainer libraryStatus={libraryStatus}>
