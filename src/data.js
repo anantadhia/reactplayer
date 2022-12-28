@@ -10,7 +10,7 @@ function chillHop() {
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Love%20Space.mp3",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Merry Go Round",
@@ -61,7 +61,7 @@ function chillHop() {
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/10.-RIDE-ON-TIME-_Single_.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
-      active: false,
+      active: true,
     },
     {
       name: "Fragile",
