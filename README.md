@@ -2,6 +2,7 @@ This app is made by Wilson and modified by an2ta for Tats library songs, sortabl
 
 The music library stored to your localstorage, so it doesnt change even if you terminate the session (aka closing browser). However, I put expire time for 1 day (from the last session) in order to anticipate update in the library. Hence, u also need to delete the localstorage file if you did not see any changes if this repo is updated, kindly reminder that this repo will be grown ( I guess), so, the later mentioned about deleting the localstorage in ur machine, is required to have the current version.
 
+The original repo here: https://github.com/WilsonLe/react-music-player
 
 
 In the project directory, you can run:
