@@ -188,12 +188,13 @@ const LibraryContainer = styled.ul`
   }
 
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
     background-color: #4500ff;
   }
 
   ::-webkit-scrollbar-thumb {
     background-color: #4500ff;
+    border-radius: 25px;
 
     background-image: -webkit-gradient(
       linear,

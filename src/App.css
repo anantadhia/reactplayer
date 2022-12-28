@@ -22,8 +22,15 @@ h3 {
   color: rgb(54, 54, 54);
 }
 
+
 h3,
 h4 {
   font-weight: 400;
   color: rgb(100, 100, 100);
 }
+ @media screen and (max-width: 768px){
+   .verticaltext {
+    writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;}
+ }
