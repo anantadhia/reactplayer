@@ -52,13 +52,14 @@ const LibrarySongContainer = styled.li`
   width: 100%;
   display: flex;
   transition: all 0.3s ease;
-  background-color: ${(p) => (p.isActive ? "red" : "white")};
+  background-color: ${(p) => (p.isActive ? "#e06e6e" : "white")};
   &:hover {
     background-color: lightblue;
     transition: all 0.3s ease;
   }
   &.active {
-    background-color: red;
+    background-color: red
+    );
   }
 `;
 
