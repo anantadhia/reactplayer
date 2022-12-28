@@ -8,8 +8,8 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
     <NavContainer>
       <H1 libraryStatus={libraryStatus}>Tats Music Lib</H1>
       <Button onClick={() => setLibraryStatus(!libraryStatus)}>
-        Library
-        <FontAwesomeIcon icon={faMusic} />
+        <span class="verticaltext" >Library 山下 達郎 </span>
+        {/* <FontAwesomeIcon icon={faMusic} /> */}
       </Button>
     </NavContainer>
   );
@@ -40,11 +40,12 @@ const H1 = styled.h1`
 `;
 
 const Button = styled.button`
+
   font-size: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  background: transparent;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ background: rgba(255, 255, 255, 0.14);
+ backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
   border: none;
   color: #4500ff;
@@ -56,10 +57,16 @@ const Button = styled.button`
     background: #4500ff;
     color: white;
   }
+  &:active {
+    background: #ba0000;
+    color: white;
+  }
   @media screen and (max-width: 768px) {
-    position: fixed;
-    margin-top: 90px;
-    right: -9px;
+    position: fixed; 
+    margin-top: 250px;
+    right: 30px;
+
+    
   }
 `;
 
