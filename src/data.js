@@ -34,11 +34,9 @@ function chillHop() {
     },
     {
       name: "Zutto Ishosha",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+      cover: "/tatsuback.webp",
       album: "Single",
-      audio:
-        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Zutto%20Ishosha.mp3",
+      audio: "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Zutto%20Ishosha.mp3",
       color: ["#CD607D", "#c94043"],
       id: uuidv4(),
       active: false,
