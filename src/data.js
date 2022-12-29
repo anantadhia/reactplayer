@@ -382,7 +382,7 @@ function chillHop() {
     },
     {
       name: "Funky Flushin_ (1982年 Version)",
-      cover: "/Moon.jpg",
+      cover: "/Moonglow.jpg",
       album: "Moonglow",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/13.%20Funky%20Flushin_%20(1982%E5%B9%B4%20Version).mp3",
