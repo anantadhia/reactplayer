@@ -15,9 +15,6 @@ import Credit from "./components/Credit";
 // Import data
 import data from "./data";
 
-ReactGA.initialize("UA-223844105-2");
-ReactGA.pageview(window.location.pathname + window.location.search);
-
 const App = () => {
   // Ref
   const audioRef = useRef(null);
@@ -217,11 +214,11 @@ const LibraryContainer = styled.ul`
 `;
 
 const SongContainer = styled.li`
-  cursor:move;
+  cursor: move;
   display: flex;
   flex-direction: column;
 
-cursor:move;
+  cursor: move;
 
   border: 2px solid #4500ff;
   background: rgba(69, 0, 255, 0.06);
@@ -243,4 +240,6 @@ const AppContainer = styled.div`
   }
 `;
 
+ReactGA.initialize("UA-223844105-2");
+ReactGA.pageview(window.location.pathname + window.location.search);
 export default App;

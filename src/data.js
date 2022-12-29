@@ -35,7 +35,7 @@ function chillHop() {
     {
       name: "Zutto Ishosha",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+        "/tatsuback.webp",
       album: "Swørn",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Zutto%20Ishosha.mp3",
