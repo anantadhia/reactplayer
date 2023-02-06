@@ -82,7 +82,7 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Tsubasa-ni-nosete,
+  name: "Tsubasa-ni-nosete",
       cover: "/Spacy.jpg",
       album: "Spacy",
       audio:
