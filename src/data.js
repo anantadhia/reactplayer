@@ -12,6 +12,16 @@ function chillHop() {
       id: uuidv4(),
       active: true,
     },
+     {
+      name: "Sparkle",
+      cover: "/ForY.jpg",
+      album: "For You",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/01.-Sparkle.mp3",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
     {
       name: "Merry Go Round",
       cover: "/melo.jpg",
@@ -72,11 +82,11 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Fragile",
-      cover: "/Cozy.jpg",
-      album: "Cozy",
+      name: "Tsubasa-ni-nosete,
+      cover: "/Spacy.jpg",
+      album: "Spacy",
       audio:
-        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Tatsuro%20Yamashita%20%20Fragile.mp3.webm",
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Tsubasa-ni-nosete.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
@@ -98,6 +108,26 @@ function chillHop() {
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/02.%20Music%20Book.mp3",
       color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+     {
+      name: "Sutekina Gogo Wa",
+      cover: "/ForY.jpg",
+      album: "For You",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Sutekina-gogo-wa.mp3",
+      color: ["#EF8EA9", "#ab457f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Sutekina Gogo Wa",
+      cover: "/ForY.jpg",
+      album: "For You",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Sutekina-gogo-wa.mp3",
+      color: ["#EF8EA9", "#ab457f"],
       id: uuidv4(),
       active: false,
     },
@@ -192,7 +222,7 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Tokyo_s A Lonely Town",
+      name: "Tokyo's A Lonely Town",
       cover: "/Artisan.jpg",
       album: "Artisan",
       audio:
@@ -208,6 +238,16 @@ function chillHop() {
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/03.%20The%20Girl%20In%20White%20--------------.mp3",
       color: ["#CD602D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+     {
+      name: "Fragile",
+      cover: "/Cozy.jpg",
+      album: "Cozy",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Tatsuro%20Yamashita%20%20Fragile.mp3.webm",
+      color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
     },
@@ -420,7 +460,178 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    
+      {
+      name: "夜の翼 (Nightwing).",
+      cover: "/Moonglow.jpg",
+      album: "Moonglow",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/1.%20%E5%A4%9C%E3%81%AE%E7%BF%BC%20(Nightwing).mp3",
+      color: ["#CD207D", "#c74252"],
+      id: uuidv4(),
+      active: false,
+    },
+       {
+      name: " 悲しみのJody (She Was Crying)",
+      cover: "/melo.jpg",
+      album: "Melodies",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/1.%20%E6%82%B2%E3%81%97%E3%81%BF%E3%81%AEJody%20(She%20Was%20Crying).mp3",
+      color: ["#CD207D", "#c74252"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Endless Game",
+      cover: "/Artisan.jpg",
+      album: "Artisan",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/10%20Endless%20Game.mp3",
+      color: ["#CD602D", "#c74243"],
+      id: uuidv4(),
+      active: false,
+    },
+      {
+      name: "White Christmas",
+      cover: "/OTSC2.jpg",
+      album: "On The Street Corner 2",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/10.%20White%20Christmas.mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+        {
+      name: "Shiosai (潮騒)",
+      cover: "Goahead.jpg",
+      album: "Go Ahead!",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/11.%20%E6%BD%AE%E9%A8%92%20(English%20Version).mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+     {
+      name: "My Sugar Babe(TV)",
+      cover: "/Rideontime.jpg",
+      album: "Ride  on Time",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/13.%20MY%20SUGAR%20BABE%20(TV------------).mp3",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+      {
+      name: "Daydream",
+      cover: "/Rideontime.jpg",
+      album: "Ride  on Time",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/2.%20DAYDREAM.mp3",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+              {
+      name: "Love Celebration",
+      cover: "Goahead.jpg",
+      album: "Go Ahead!",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/2.%20Love%20Celebration.mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+        {
+      name: "Let's Dance Baby",
+      cover: "Goahead.jpg",
+      album: "Go Ahead!",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/3.%20Let_s%20Dance%20Baby.mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+          {
+      name: "Mermaid",
+      cover: "pocket.jpg",
+      album: "Pocket Music",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/3.%20MERMAID.mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+  {
+      name: "Silent Screamer",
+       cover: "/Rideontime.jpg",
+      album: "Ride  on Time",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/3.%20SILENT%20SCREAMER.mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " 夜翔 (Night Fly)",
+      cover: "/melo.jpg",
+      album: "Melodies",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/3.%20%E5%A4%9C%E7%BF%94%20(Night%20Fly).mp3",
+      color: ["#CD207D", "#c74252"],
+      id: uuidv4(),
+      active: false,
+    },
+      {
+      name: "Donut Song",
+      cover: "/Cozy.jpg",
+      album: "Cozy",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/4.%20Donut%20Song.mp3",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+      {
+      name: "Guess I'm Dumb",
+      cover: "/melo.jpg",
+      album: "Melodies",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/4.%20Guess%20I_m%20Dumb.mp3",
+      color: ["#CD207D", "#c74252"],
+      id: uuidv4(),
+      active: false,
+    },
+      {
+      name: "Monday Blue",
+      cover: "Goahead.jpg",
+      album: "Go Ahead!",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/4.%20Monday%20Blue.mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+      
+   {
+      name: "Moonlight",
+      cover: "/Cozy.jpg",
+      album: "Cozy",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/5.%20Moonlight.mp3",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+      {
+      name: "Tsuite Oide",
+      cover: "Goahead.jpg",
+      album: "Go Ahead!",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/5.%20%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8A%E3%81%84%E3%81%A7.mp3",
+      color: ["#EF8EA9", "#ab4323"],
+      id: uuidv4(),
+      active: false,
+    },
+      
     //ADD MORE HERE
   ];
 }
