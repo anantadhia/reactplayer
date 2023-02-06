@@ -113,24 +113,15 @@ function chillHop() {
     },
      {
       name: "Sutekina Gogo Wa",
-      cover: "/ForY.jpg",
-      album: "For You",
+     cover: "/Spacy.jpg",
+      album: "Spacy",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Sutekina-gogo-wa.mp3",
       color: ["#EF8EA9", "#ab457f"],
       id: uuidv4(),
       active: false,
     },
-    {
-      name: "Sutekina Gogo Wa",
-      cover: "/ForY.jpg",
-      album: "For You",
-      audio:
-        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Sutekina-gogo-wa.mp3",
-      color: ["#EF8EA9", "#ab457f"],
-      id: uuidv4(),
-      active: false,
-    },
+    
     {
       name: "Futari",
       cover: "/ForY.jpg",
