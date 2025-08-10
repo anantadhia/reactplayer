@@ -3,9 +3,9 @@ import styled from "styled-components";
 const Credit = () => {
   return (
     <CreditContainer>
-      <Link href="https://github.com/anantadhia/reactplayer" target="_blank">
+      {/* <Link href="https://github.com/anantadhia/reactplayer" target="_blank">
         Tatsu repository
-      </Link>
+      </Link> */}
       <br />
 
       <p>
